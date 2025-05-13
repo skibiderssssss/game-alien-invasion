@@ -13,7 +13,7 @@ SC.ship = (function () {
     self.images = SC.sprite('ship', 4);
     self.imagesHurt = SC.sprite('shiphurt', 3);
     self.music = SC.storage.readBoolean('SC.ship.music', true);
-    self.extraCredit = 1500;
+    self.extraCredit = 1000000000000000000000000000000000000000000000000000000000;
 
     self.reset = function () {
         // reset ship attributes to initial values
